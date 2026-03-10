@@ -156,8 +156,12 @@ The pipeline automates the following stages:
 | **Database Deploy** | Runs MongoDB container |
 | **App Deploy** | Runs frontend & backend containers |
 
+
+<img width="1561" height="686" alt="Screenshot (564)" src="https://github.com/user-attachments/assets/8f6a078e-1fed-4580-9bb8-d9e81303408c" />
+
 ---
 
 ## 🌐 Access the Application
 
  | `http://<server-ip>:5173` |
+
