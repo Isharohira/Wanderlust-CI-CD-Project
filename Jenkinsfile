@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Code PUSH') {
+        stage('Code CLONE') {
             steps {
                git branch: 'main', 
                    url: 'https://github.com/Isharohira/Wanderlust-CI-CD-Project.git',
