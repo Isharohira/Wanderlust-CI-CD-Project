@@ -5,6 +5,9 @@ pipeline {
         skipDefaultCheckout(true)
      }
     
+    when {
+    changeset "frontend/**"
+}
 
     stages {
         stage('Code PUSH') {
